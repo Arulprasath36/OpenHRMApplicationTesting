@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HRM Test Suite" duration-ms="17371" started-at="2019-02-10T14:16:59Z" finished-at="2019-02-10T14:17:16Z">
+    <groups>
+    </groups>
+    <test name="Pending Leave Request Test case" duration-ms="7871" started-at="2019-02-10T14:16:59Z" finished-at="2019-02-10T14:17:07Z">
+      <class name="testCases.Test_Pending_Leave_Request">
+        <test-method status="PASS" signature="verifyPendingLeaveRequests()[pri:0, instance:testCases.Test_Pending_Leave_Request@cb5822]" name="verifyPendingLeaveRequests" duration-ms="7811" started-at="2019-02-10T19:46:59Z" finished-at="2019-02-10T19:47:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPendingLeaveRequests -->
+      </class> <!-- testCases.Test_Pending_Leave_Request -->
+    </test> <!-- Pending Leave Request Test case -->
+    <test name="Check User Role test case" duration-ms="9373" started-at="2019-02-10T14:17:07Z" finished-at="2019-02-10T14:17:16Z">
+      <class name="testCases.Test_User_Role">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testCases.Test_User_Role@4ed9f0]" name="launchBrowser" is-config="true" duration-ms="27667" started-at="2019-02-10T19:46:31Z" finished-at="2019-02-10T19:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="checkUserRole()[pri:0, instance:testCases.Test_User_Role@4ed9f0]" name="checkUserRole" duration-ms="9363" started-at="2019-02-10T19:47:07Z" finished-at="2019-02-10T19:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserRole -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testCases.Test_User_Role@4ed9f0]" name="tearDown" is-config="true" duration-ms="1251" started-at="2019-02-10T19:47:16Z" finished-at="2019-02-10T19:47:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.Test_User_Role -->
+    </test> <!-- Check User Role test case -->
+  </suite> <!-- HRM Test Suite -->
+</testng-results>
